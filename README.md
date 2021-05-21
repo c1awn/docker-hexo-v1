@@ -1,5 +1,7 @@
 # Docker部署hexo脚本
-
+1. 在/home下先部署此项目
+2. 在/home/blog下git clone git@github.com:c1awn/blog.git，可能需要重启hexo容器。至此hexo-blog独立入口已配置完成。可通过IP:4000访问博客。
+3. 在/home下git@github.com:c1awn/nginx.git，Nginx只是为了配置域名、HTTPS、代理hexo。**拉起前先改配置，放入证书**
 
 ## 目录说明
 
