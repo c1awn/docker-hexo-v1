@@ -6,7 +6,7 @@ services:
     restart: always
     privileged: true
     ports:
-      - '8080:4000'
+      - '4000:4000'
     volumes:
       - /home/blog/source:/root/blog/source
       - /home/blog/themes:/root/blog/themes
